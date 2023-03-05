@@ -41,7 +41,9 @@ const ToDoCard = ({
   } return (  
     <div className={classes.wrapperCard}>
          <div className={todo.completed ? classes['todoCard'] + " " + classes.done : classes.todoCard }>
+             <p>{todo.id}</p>
         <h3>{todo.title}</h3>
+
         <div className={classes.actionButtons}>
           <ButtonAction type={'edit'} handleClick={handleChangeCurrent} 
           todo={todo}>

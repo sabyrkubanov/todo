@@ -1,0 +1,31 @@
+
+
+
+.pagination {
+    margin: 30px  0;
+    width: 400px;
+    height: 70px;
+    border: 5px solid rgba(255, 246, 246, 0.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.paginationBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+button {
+    width: 80px;
+    height: 30px;
+    background: #40408a;
+    color: white;
+    border: 1px solid white;
+}
+h5 {
+    font-size: 30px;
+    color: white;
+
+}
